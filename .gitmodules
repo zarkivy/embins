@@ -1,0 +1,3 @@
+[submodule "strace/src"]
+	path = strace/src
+	url = https://github.com/strace/strace.git
