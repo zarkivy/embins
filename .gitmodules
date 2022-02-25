@@ -4,3 +4,12 @@
 [submodule "busybox/src"]
 	path = busybox/src
 	url = https://git.busybox.net/busybox/
+[submodule "gdbserver/src"]
+	path = gdbserver/src
+	url = git://sourceware.org/git/binutils-gdb.git
+[submodule "tcpdump/src"]
+	path = tcpdump/src
+	url = https://github.com/the-tcpdump-group/tcpdump.git
+[submodule "libpcap/src"]
+	path = libpcap/src
+	url = https://github.com/the-tcpdump-group/libpcap.git
