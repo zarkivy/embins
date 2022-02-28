@@ -1,0 +1,2 @@
+CC=/opt/cross-compilers/mipeb/bin/mips-buildroot-linux-uclibc-gcc ./configure --host=mips --with-pcap=linux
+
