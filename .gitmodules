@@ -13,3 +13,6 @@
 [submodule "libpcap/src"]
 	path = libpcap/src
 	url = https://github.com/the-tcpdump-group/libpcap.git
+[submodule "ltrace/src"]
+	path = ltrace/src
+	url = https://github.com/ice799/ltrace.git
