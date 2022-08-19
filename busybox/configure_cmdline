@@ -1,2 +1,2 @@
 make CROSS_COMPILE=/opt/crossc/armel-uclibc-gcc-4/usr/bin/arm-buildroot-linux-uclibcgnueabi- menuconfig
-make CROSS_COMPILE=/opt/crossc/armel-uclibc-gcc-4/usr/bin/arm-buildroot-linux-uclibcgnueabi- -j8
+make CROSS_COMPILE=/opt/crossc/armel-uclibc-gcc-4/usr/bin/arm-buildroot-linux-uclibcgnueabi- -j`nproc`

@@ -1,0 +1,3 @@
+./bootstrap
+CC=/opt/cross/linaro-aarch64/bin/aarch64-linux-gnu-gcc CXX=/opt/cross/linaro-aarch64/bin/aarch64-linux-gnu-g++ LD=/opt/cross/linaro-aarch64/bin/aarch64-linux-gnu-ld RANLIB=/opt/cross/linaro-aarch64/bin/aarch64-linux-gnu-ranlib ./configure --host=aarch64-linux --enable-mpers=no
+make LDFLAGS+='-static -pthread' -j`nproc`
