@@ -1,0 +1,1 @@
+./configure --enable-static --disable-shared --prefix=/root/Gitrepos/utils/iptables/_install --disable-ipv6 --disable-nftables --disable-largefile --host=arm-linux-gnueabi CFLAGS="--static"

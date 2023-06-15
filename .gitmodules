@@ -16,3 +16,6 @@
 [submodule "ltrace/src"]
 	path = ltrace/src
 	url = https://github.com/ice799/ltrace.git
+[submodule "iptables/src"]
+	path = iptables/src
+	url = git://git.netfilter.org/iptables
